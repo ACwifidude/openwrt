@@ -184,9 +184,9 @@
 	phy-mode = "rgmii";
 	qcom,id = <1>;
 	qcom,pcs-chanid = <0>;
-	qcom,phy-mdio-addr = <4>;
-	qcom,poll-required = <1>;
-	qcom,rgmii-delay = <0>;
+	qcom,phy-mdio-addr = <0>;
+	qcom,poll-required = <0>;
+	qcom,rgmii-delay = <1>;
 	qcom,phy_mii_type = <0>;
 	qcom,emulation = <0>;
 	qcom,forced-speed = <1000>;
